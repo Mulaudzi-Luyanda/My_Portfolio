@@ -1,0 +1,391 @@
+body{
+	
+    background: linear-gradient(to right, #000000, #121212);
+    color: #f0f0f0;
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+
+
+}
+body, html {
+    overflow: auto; 
+}
+
+::-webkit-scrollbar {
+    display: none; 
+}
+h1{
+
+}
+header{
+	
+	padding: 2%;
+	text-align: center;
+	color:white;
+}
+nav{
+	background-color:;
+	position:;
+	top: 0;
+	z-index: 1000px;
+	position: fixed;
+	top: 0;
+}
+li{
+	text-decoration: none;
+}
+.lulu a {
+	color:#00ffcc;
+	
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+.luyanda{
+
+    list-style: none;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	gap:0,5rem;
+        
+
+	
+}
+
+
+.luyanda a{
+	text-decoration: none;
+            color: #00ffcc;
+            font-size: 18px;
+            padding: 12px 20px;
+            text-align: center;
+            font-family: 'Orbitron', sans-serif;
+            transition: background-color 0.3s ease;
+            
+}
+
+
+.lulu a:hover {
+	background-color:#00ffcc;
+	transition: background-color 0.3s ease;
+	 border-radius: 5px;
+	 color: white;
+}
+.lala{
+	
+	padding: 2%;
+	text-align: center;
+	color:#73c6b6;
+	margin-bottom: 2%;
+
+}
+
+.radius{
+	border-radius: 50%;
+	height: 400px;
+	width: 400px;
+	display: flex;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-right: 20px;
+	cursor: pointer;
+	margin-top: 60px;
+	
+}
+.radius:hover{
+	transform: scale(1.05);
+	 box-shadow: 0 4px 20px rgba(0, 255, 255);
+}
+h1{
+	text-align: center;
+	animation: write 4s steps(20, end), blink 0.7s step-end infinite alternate;
+	color: #2ecc71 ;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: 2px solid #fff;
+	animation: write 4s steps(20,end), blink 0.7s step-end infinite alternate;
+	width: 28ch;
+	transform: translateX(-50%);
+	margin:0 auto;
+	margin-bottom: 10px;
+	margin-left: 50%;
+	font-style: courier;
+	font-family: monospace;
+	font-size: 40px;
+
+}
+@keyframes write{
+	from{
+		width:0;
+	}
+	to{
+		width:35ch;
+	}
+
+}
+@keyframes blink{
+	from{
+	border-right-color:transparent;
+	}
+	to{
+		border-right-color: #fff;
+	}
+
+
+}
+.me{
+	text-align: center;
+	color:#73c6b6 ;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 150px;
+	background-color:;
+	border-radius: 50px;
+	padding: 10px;
+	font-weight: bold;
+	font-size:25px;
+	font-family: cursive;
+}
+
+.about{
+	color:white;
+	
+	font-family: 'Orbitron', sans-serif;
+	font-size: 25px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+h3{
+	font-family:cursive;
+	font-size: 30px;
+	align-content: center;
+	text-align: center;
+	color:#2ecc71;
+}
+.icon{
+	cursor: pointer;
+	height: 30px;
+	animation: shake 5s ease-in-out infinite;
+
+}
+.icon:hover {
+	transform: scale(1.1);
+	animation: none;
+}
+.logo{
+	cursor: pointer;
+	height: 30px;
+	animation: shake 5s ease-in-out infinite;
+}
+.logo:hover {
+	transform: scale(1.1);
+	animation: none;
+
+}
+.one{
+	margin-left: 80px;
+}
+.one, .two{
+            background-color: white;
+            width: 27%;
+            height: 500px;
+            border: none;
+            border-radius: 10%;
+            overflow: hidden;
+        }
+        .pro {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+.projects{
+	
+}
+.all{
+	display: flex;
+	gap: 100px;
+
+}
+.one:hover, .two:hover, .three:hover {
+            transform: scale(1.05);
+        }
+
+
+ .skill{
+ 	margin-left: 100px;
+ 	font-family: cursive;
+ 	color: white;
+ 	font-size: 25px;
+
+ } 
+ .more{
+ 	display: flex;
+ }  
+ small{
+ 	font-size: 18px;
+ }    
+ h4{
+ 	color:yellowgreen;
+ }
+
+
+
+ .five{
+ 	margin-bottom: 300px;
+ 	display: flex;
+ 	gap: 100px;
+ 	color:white;
+ 	font-family: cursive;
+ 	font-size: 25px;
+ 	margin-left: 110px;
+ }
+ .six{
+ 	width: 27%;
+            height: 500px;
+            border: none;
+
+ }
+ .seven{
+ 	width: 27%;
+            height: 500px;
+            border: none;
+
+ }
+ .eight{
+ 	width: 27%;
+            height: 500px;
+            border: none;
+
+ }
+ .curricular{
+ 	margin-left: 100px;
+ 	font-size: 25px;
+ 	font-family: cursive;
+ 	color: white;
+ 	margin-bottom: 300px;
+ }
+ @keyframes changename{
+ 	0%, 100% {content: "Junior Web Developer";}
+ 		33% {content: "Junior CyberSecurity Analyst"}
+ 		66% {content: "Junior Software Developer / Software Engineer"}
+ }
+ .name::after{
+ 	content: "Junior Web Developer";
+ 	animation: changename 4s infinite;
+ }
+ .name{
+ 	font-family:cursive;
+	font-size: 20px;
+	align-content: center;
+	text-align: center;
+	color:yellowgreen;
+ }
+ .name{
+ 	font-size: 15px;
+ }
+
+ .last{
+ 	margin-top: 100px;
+ 	margin-left:10 px;
+ 	color: white;
+ 	 	font-size: 20px;
+ 	font-family: cursive;
+ 	text-align: center;
+ }
+ .last a{
+ 	text-decoration: none;
+ 	color:yellowgreen;	
+ }
+ .last a:visited{
+ 	color:yellowgreen;
+ 	text-decoration: none;
+ }
+ .last a:hover{
+ 	color: white;
+ }
+ .last{
+ 		 background: linear-gradient(to top, #333333, #222222);
+ }
+ .shakey{
+ 	color: #00ffcc;
+ 	display: inline-block;
+ 	animation: shake 1s ease-in-out infinite;
+ }
+ @keyframes shake{
+ 	0%{
+ 		transform: translateX(0);
+ 	}
+ 	25%{
+ 		transform: translateX(-5px);
+ 	}
+ 	50%{
+ 		transform: translateX(5px);
+ 	}
+ 	75%{
+ 		transform: translateX(-5px);
+ 	}
+ 	100%{
+ 		transform: translateX(0);
+ 	}
+ }
+ @media (max-width: 768px) {
+    .me, .about, .projects, .late {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .all {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .one, .two, .three {
+        width: 90%;
+        height: auto;
+    }
+}
+@media (max-width: 768px) {
+    .luyanda {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lulu a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+.radius {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .luyanda {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .all {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .one, .two, .three {
+        width: 100%;
+    }
+
+    .radius {
+        width: 80%;
+        height: auto;
+    }
+}
