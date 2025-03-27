@@ -142,11 +142,11 @@ h1{
 	margin-left: 100px;
 	margin-right: 100px;
 	margin-bottom: 150px;
-	background-color:;
+	
 	border-radius: 50px;
 	padding: 10px;
 	font-weight: bold;
-	font-size:25px;
+	font-size: 1.5625rem;
 	font-family: monospace;
 }
 
