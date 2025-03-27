@@ -342,26 +342,30 @@ h3{
 }
 
 @media (max-width: 768px) {
-	font-family:monospace;
+
     .all {
+	    font-family:monospace;
         flex-direction: column;
         align-items: center;
     }
 
     .one, .two, .three {
+	    font-family:monospace;
         width: 90%;
         height: auto;
     }
 }
 @media (max-width: 768px) {
-	font-family:monospace;
+	
     .luyanda {
+	    font-family:monospace;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .lulu a {
+	    font-family:monospace;
         display: block;
         width: 100%;
         text-align: center;
@@ -373,18 +377,21 @@ h3{
     height: auto;
 }
 @media (max-width: 768px) {
-	font-family:monospace;
+	
     .luyanda {
+	    font-family:monospace;
         flex-direction: column;
         text-align: center;
     }
 
     .all {
+	    font-family:monospace;
         flex-direction: column;
         gap: 20px;
     }
 
     .one, .two, .three {
+	    font-family:monospace;
         width: 100%;
     }
 
