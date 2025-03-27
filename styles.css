@@ -334,6 +334,7 @@ h3{
  }
  @media (max-width: 768px) {
     .me, .about, .projects, .late {
+	    font-family:monospace;
         margin-left: 20px;
         margin-right: 20px;
         font-size: 18px;
@@ -341,6 +342,7 @@ h3{
 }
 
 @media (max-width: 768px) {
+	font-family:monospace;
     .all {
         flex-direction: column;
         align-items: center;
@@ -352,6 +354,7 @@ h3{
     }
 }
 @media (max-width: 768px) {
+	font-family:monospace;
     .luyanda {
         display: flex;
         flex-direction: column;
@@ -370,6 +373,7 @@ h3{
     height: auto;
 }
 @media (max-width: 768px) {
+	font-family:monospace;
     .luyanda {
         flex-direction: column;
         text-align: center;
